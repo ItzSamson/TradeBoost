@@ -1,0 +1,11 @@
+<img src="<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 100" class="w-full h-auto">
+            
+    <!-- Logomark: Dynamická, ostrá šipka/graf (Elektrická Tyrkysová/Cyan) -->
+    <path d="M 50 80 L 100 80 L 75 30 Z" fill="#06B6D4" transform="rotate(-15 75 55)"/>
+    
+    <!-- Text: Trade (Čistě Bílá - Skvělý kontrast na černé) -->
+    <text x="140" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="600" fill="#FFFFFF">Trade</text>
+    
+    <!-- Text: Boost (Elektrická Tyrkysová - Růst a Dynamika) -->
+    <text x="320" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="900" fill="#06B6D4">Boost</text>
+</svg>" alt="Logo">

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Přihlášení – TradeBoost</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html#home" aria-label="Zpět na domů">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 100" class="logo-svg" aria-label="TradeBoost logo">
+        <path d="M 50 80 L 100 80 L 75 30 Z" fill="#06B6D4" transform="rotate(-15 75 55)"/>
+        <text x="140" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="600" fill="#FFFFFF">Trade</text>
+        <text x="320" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="900" fill="#06B6D4">Boost</text>
+      </svg>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html#plans">Plány</a></li>
+      <li><a href="index.html#services">Služby</a></li>
+      <li><a href="index.html#support">Podpora</a></li>
+      <li class="nav-cta"><a class="btn btn-nav" href="index.html#home">← Zpět na domů</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="login-page">
+    <div class="login-card">
+      <h1>Přihlášení</h1>
+      <p class="muted">Zadej své přihlašovací údaje a pokračuj do členské sekce.</p>
+
+      <form class="login-form" action="#" method="post" onsubmit="return false;">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="např. trader@domena.cz" autocomplete="username" required />
+
+        <label for="password">Heslo</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" autocomplete="current-password" required />
+
+        <div class="form-row">
+          <label class="checkbox"><input type="checkbox" /> Zapamatovat</label>
+          <a href="#" class="link">Zapomenuté heslo?</a>
+        </div>
+
+        <button type="submit" class="btn btn-wide">Přihlásit se</button>
+      </form>
+
+      <p class="muted" style="margin-top:10px;">Nemáš účet? <a class="link" href="#">Vytvořit účet</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 TradeBoost. Všechna práva vyhrazena.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

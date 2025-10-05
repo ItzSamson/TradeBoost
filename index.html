@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TradeBoost</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 100" class="logo-svg" aria-label="TradeBoost logo">
+      <path d="M 50 80 L 100 80 L 75 30 Z" fill="#06B6D4" transform="rotate(-15 75 55)"/>
+      <text x="140" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="600" fill="#FFFFFF">Trade</text>
+      <text x="320" y="70" font-family="Inter, sans-serif" font-size="55" font-weight="900" fill="#06B6D4">Boost</text>
+    </svg>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Domů</a></li>
+      <li><a href="#plans">Plány</a></li>
+      <li><a href="#verified">Ověřené strategie</a></li>
+      <li><a href="#services">Staň se součástí</a></li>
+      <li><a href="#discord">Discord</a></li>
+      <li><a href="#testimonials">Z pohledu studenta</a></li>
+      <li><a href="#support">Podpora</a></li>
+      <li><a href="#community">Komunita</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+      <li class="nav-cta"><a href="login.html" class="btn btn-nav" aria-label="Přihlásit se">Přihlásit se</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO: puntíky jen zde -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Výsledky, které dávají smysl.</h1>
+    <p>Reálné strategie, jasný risk-management a mentoring zaměřený na růst. Přidej se k TradeBoost a posuň svůj trading na další úroveň.</p>
+    <div class="cta-row">
+      <a class="btn" href="#plans">Vybrat plán</a>
+      <a class="btn btn-secondary" href="#verified">Získat strategie</a>
+    </div>
+  </div>
+
+  <!-- Karusel: plynulý loop, vidět kousek sousedů -->
+  <div class="hero-media">
+    <div class="carousel" aria-label="Ukázkový karusel">
+      <button class="carousel-btn prev" aria-label="Předchozí">&lsaquo;</button>
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <!-- 7 ukázkových obrázků -->
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1011/800/500" alt="Ukázka 1"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1025/800/500" alt="Ukázka 2"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1043/800/500" alt="Ukázka 3"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1067/800/500" alt="Ukázka 4"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1080/800/500" alt="Ukázka 5"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/1084/800/500" alt="Ukázka 6"></div>
+          <div class="carousel-slide"><img src="https://picsum.photos/id/111/800/500" alt="Ukázka 7"></div>
+        </div>
+      </div>
+      <button class="carousel-btn next" aria-label="Další">&rsaquo;</button>
+    </div>
+  </div>
+</section>
+
+<!-- PLÁNY -->
+<section id="plans" class="plans-section">
+  <h2>Plány & Ceník</h2>
+  <div class="plans-grid">
+    <div class="plan-card plan-pro">
+      <div class="plan-badge">Nejlepší volba</div>
+      <h3>Proplan</h3>
+      <p class="price">2 499 Kč / měs.</p>
+      <ul class="features">
+        <li>Plné strategie & signály</li>
+        <li>Osobní mentoring 1:1 (2× měsíčně)</li>
+        <li>Přístup k exkluzivním analýzám</li>
+        <li>Prioritní podpora</li>
+      </ul>
+      <a class="btn plan-cta" href="#contact">Vybrat Proplan</a>
+      <div class="rating"><span class="stars">★★★★★</span> 4,9</div>
+    </div>
+
+    <div class="plan-card plan-basic">
+      <h3>Basicplan</h3>
+      <p class="price">699 Kč / měs.</p>
+      <ul class="features">
+        <li>Základní strategie</li>
+        <li>Přístup k archivům analýz</li>
+        <li>Skupinový mentoring (měsíčně)</li>
+        <li>Emailová podpora</li>
+      </ul>
+      <a class="btn plan-cta" href="#contact">Vybrat Basicplan</a>
+      <div class="rating"><span class="stars">★★★★★</span> 4,9</div>
+    </div>
+  </div>
+</section>
+
+<!-- Ověřené strategie -->
+<section id="verified" class="verified-section">
+  <div class="verified-grid">
+    <div class="verified-text">
+      <h2>Získej ověřené strategie</h2>
+      <p>Žádné hádání. Využij přístupy, které dlouhodobě fungují a jsou postavené na pravděpodobnosti a disciplíně. Krátká videa ti ukážou přesné kroky – od přípravy až po exekuci.</p>
+      <ul class="bullets">
+        <li>Konkrétní pravidla vstupu/výstupu</li>
+        <li>Money-management a scénáře</li>
+        <li>Check-list pro každý obchod</li>
+      </ul>
+    </div>
+    <div class="verified-media">
+      <video class="video" controls playsinline poster="https://picsum.photos/640/360?blur=3">
+        Váš prohlížeč nepodporuje video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- Staň se součástí -->
+<section id="services" class="services-join">
+  <div class="join-grid">
+    <div class="join-text">
+      <h2>Staň se součástí TradeBoost</h2>
+      <p>Učíme tě myslet jako trader. Zaměření na proces, ne na „tipy“ – díky tomu roste tvoje konzistence a jistota v trhu.</p>
+      <div class="services-list">
+        <div class="service-row">
+          <h3>Naše služby</h3>
+          <p>Individuální strategie, pravidelné analýzy, mentoring a backtesting šitý na míru tak, aby ses mohl spolehnout na jasná pravidla.</p>
+        </div>
+        <ul class="service-bullets">
+          <li>Individuální trading strategie</li>
+          <li>Analýza trhů a predikce</li>
+          <li>Mentoring & Q/A</li>
+          <li>Simulace a backtesting</li>
+        </ul>
+      </div>
+    </div>
+    <div class="join-video">
+      <video class="video" controls playsinline poster="https://picsum.photos/720/405?grayscale">
+        Váš prohlížeč nepodporuje video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- Discord CTA -->
+<section id="discord" class="discord-cta">
+  <div class="discord-grid">
+    <div class="discord-image">
+      <img src="https://picsum.photos/800/460?discord" alt="Náhled Discord komunity" />
+    </div>
+    <div class="discord-text">
+      <h2>Připoj se na náš Discord nyní</h2>
+      <p>Komunita traderů, živé rozbory, odpovědi na otázky a aktuální pohled na trh – vše na jednom místě.</p>
+      <a class="btn" id="discordBtn" href="#" aria-label="Připojit se na Discord">Připojit se</a>
+      <p class="muted mini">*Demo odkaz pro ukázku UI.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Z pohledu studenta -->
+<section id="testimonials" class="testimonials">
+  <h2>Z pohledu studenta</h2>
+
+  <div class="ratings-summary">
+    <div class="rating-box">
+      <div class="rating-value">4,9</div>
+      <div class="rating-stars" aria-label="Hodnocení 4,9 z 5">★★★★★</div>
+      <div class="rating-note">z 1 200 hodnocení</div>
+    </div>
+    <div class="rating-box">
+      <div class="rating-label">Google Rating</div>
+      <div class="rating-value">4,8</div>
+      <div class="rating-stars" aria-label="Google hodnocení 4,8 z 5">★★★★★</div>
+    </div>
+  </div>
+
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <p class="quote">„Díky TradeBoost mám konečně jasná pravidla. Přestal jsem přetáčet ztráty a roste mi jistota.“</p>
+      <div class="meta">— Jan Novák • <span class="stars">★★★★★</span> 4,9</div>
+    </div>
+    <div class="testimonial-card">
+      <p class="quote">„Mentoring je věcný a přímočarý. Každý týden přesně vím, co zlepšit.“</p>
+      <div class="meta">— Petra Svobodová • <span class="stars">★★★★☆</span> 4,6</div>
+    </div>
+    <div class="testimonial-card">
+      <p class="quote">„Nejvíc oceňuju checklist a práci se scénáři. Konečně disciplína!“</p>
+      <div class="meta">— Lukáš Horák • <span class="stars">★★★★★</span> 5,0</div>
+    </div>
+  </div>
+</section>
+
+<!-- TradeBoost v číslech -->
+<section id="stats" class="stats-section">
+  <div class="stats-container">
+    <div class="stats-image">
+      <img src="https://picsum.photos/420/420?trade" alt="TradeBoost obrázek" />
+    </div>
+    <div class="stats-numbers">
+      <div class="stat">
+        <div class="counter" data-target="1200">0</div>
+        <p>Šťastní studenti</p>
+      </div>
+      <div class="stat">
+        <div class="counter" data-target="350">0</div>
+        <p>Provedené strategie</p>
+      </div>
+      <div class="stat">
+        <div class="counter" data-target="75">0</div>
+        <p>Mentorů zapojeno</p>
+      </div>
+      <div class="stat">
+        <div class="counter" data-target="98">0</div>
+        <p>% spokojenost</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Podpora / FAQ -->
+<section id="support" class="support">
+  <h2>Podpora</h2>
+  <p class="support-sub">Jsme tu, abychom ti pomohli růst. Najdeš zde nejčastější dotazy – a pokud něco chybí, napiš nám.</p>
+
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-question">Jaké strategie se u vás naučím?</button>
+      <div class="faq-answer">
+        Zaměřujeme se na trend-continuation a mean-reversion přístupy s jasnými pravidly vstupu/výstupu a důrazem na řízení rizika.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Jak zjistím, zda je trading pro mě?</button>
+      <div class="faq-answer">
+        Začni strukturovaným plánem: backtesting, mikro velikosti pozic a měření konzistence po 20–30 obchodech. Pokud ti sedí proces a disciplína, jsi na dobré cestě.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Je mentoring 1:1 součástí všech plánů?</button>
+      <div class="faq-answer">
+        Mentoring 1:1 je v Proplanu (2× měsíčně). V Basicplanu je skupinové Q/A a přístup k archivům analýz.
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Co potřebuji před první lekcí?</button>
+      <div class="faq-answer">
+        Základní znalost platformy, účet u brokera (demo stačí) a ochotu držet se plánu. Vše ostatní spolu projdeme.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KOMUNITA -->
+<section id="community" class="community">
+  <div class="community-inner">
+    <div class="community-header">
+      <h2>Naše komunita</h2>
+      <p class="muted">Obsah pro členy, živé rozbory a materiály, které ti pomohou růst.</p>
+    </div>
+
+    <div class="community-grid">
+      <div class="comm-col">
+        <h3>Rychlé odkazy</h3>
+        <ul class="link-list">
+          <li><a href="#">Discord komunita</a></li>
+          <li><a href="#">YouTube: analýzy trhů</a></li>
+          <li><a href="#">X (Twitter)</a></li>
+          <li><a href="#">Blog &amp; novinky</a></li>
+          <li><a href="#">Kalendář streamů</a></li>
+          <li><a href="#">Průvodce pro začátečníky</a></li>
+        </ul>
+      </div>
+
+      <div class="comm-col">
+        <h3>Z komunity</h3>
+        <div class="comm-card">
+          <p class="mini-title">Case study</p>
+          <p class="comm-text">„EURUSD continuation setup – +3R díky řízenému vstupu.“</p>
+          <span class="tag">Price Action</span>
+        </div>
+        <div class="comm-card">
+          <p class="mini-title">Nový materiál</p>
+          <p class="comm-text">Checklist před seancí: 6 kroků pro méně chyb.</p>
+          <span class="tag">Checklist</span>
+        </div>
+      </div>
+
+      <div class="comm-col">
+        <h3>Přidej se</h3>
+        <p class="comm-text muted">Získáš přístup k živým rozborům a podpoře.</p>
+        <a class="btn" href="#plans">Vybrat plán</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT: jen telefon + e-mail vedle sebe -->
+<section id="contact" class="contact-min">
+  <h2 class="visually-hidden">Kontakt</h2>
+  <div class="contact-row">
+    <div class="contact-item">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79a15.054 15.054 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.4 22 2 13.6 2 3a1 1 0 011-1h4.49a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/></svg>
+      <span>+420&nbsp;123&nbsp;456&nbsp;789</span>
+    </div>
+    <div class="contact-item">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 00-2 2v.4l10 6.25L22 6.4V6a2 2 0 00-2-2zm0 4.24l-8 5-8-5V18a2 2 0 002 2h16a2 2 0 002-2V8.24z"/></svg>
+      <span>info@tradeboost.cz</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 TradeBoost. Všechna práva vyhrazena.</p>
+  <div id="discordModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <span class="close" role="button" aria-label="Zavřít">&times;</span>
+      <h2>Připojte se na náš Discord</h2>
+      <p>Omlouváme se, toto je pouze ukázkový Discord link 😅</p>
+      <a href="#" class="btn">discord.gg/fake123</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
